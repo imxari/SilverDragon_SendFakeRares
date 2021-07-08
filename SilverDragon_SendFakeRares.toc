@@ -1,0 +1,11 @@
+## Interface: 90100
+## Title: SilverDragon (SendFakeRares)
+## Notes: Allows sending of fake rares
+## Version: v90100.1.1
+## Author: H0lysp4nk
+## X-Category: Chat & Communications
+## Dependencies: SilverDragon
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: delayed
+
+module.lua
