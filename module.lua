@@ -59,7 +59,7 @@ function module:OnChatCommand(input)
 			end
 		elseif command == "spam" then
 			-- BugFix: Prevents LUA error when no arg2 is parsed
-			if arg2 then
+			if arg1 then
 				module:cmdSpam("Seen", arg1, arg2, arg3, arg4, false, "Send", false)
 			end
 		end
